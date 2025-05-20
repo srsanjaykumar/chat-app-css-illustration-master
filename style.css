@@ -37,15 +37,29 @@ body{
 .main{
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 .div-1{
-    width: 501px;
-    height: 627px;
+    position: absolute;
+    /* width: 501px;
+    height: 627px; */
+    min-width: 301px;
+    min-height: 427px;
+    width: 35vw;        
+    height: 40vw;
+
+    /* transform: translate(-10%, -10%); */
+    /* left: -50%vw;
+    top: -50%vh; */
     background: linear-gradient(199deg, var(--light-magenta) -41%, var(--light-violet)) 73%;
     border-bottom-left-radius: 46%;
     border-bottom-right-radius: 58%;
+    /* border-radius: 0 0 48% 48%; */
     margin-left: -113px;
+    /* margin-left: 1vw; */
+    
+    
 }
 
 
