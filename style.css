@@ -32,6 +32,7 @@ body{
     font-family: "Rubik", sans-serif;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 .main{
@@ -60,6 +61,34 @@ body{
     /* margin-left: 1vw; */
     
     
+}
+
+.div-2{
+    position: absolute;
+    /* width: 501px;
+    height: 627px; */
+    min-width: 301px;
+    min-height: 427px;
+    width: 35vw;        
+    height: 40vw;
+
+   
+    bottom: 0%;
+    right: 0%;
+    background:  hsla(293, 100%, 63%, 0.074);
+    
+    border-radius:  58% 46% 0 0;
+    margin-right: -133px;
+   
+    
+}
+.inner{
+    position: absolute;
+   width: 1000px;
+   height: 490px;
+   top: 18%;
+   left: 20%;
+   background-color: aqua;
 }
 
 
