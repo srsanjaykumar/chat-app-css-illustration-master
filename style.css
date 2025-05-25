@@ -1,99 +1,153 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
 
 :root {
-    --pale-violet: hsl(276, 100%, 81%); /* sub-heading at the top of the app UI */
-    --moderate-violet: hsl(276, 55%, 52%); /* chat on the left */
-    --desaturated-dark-violet: hsl(271, 15%, 43%); /* chat on the right */
-    --grayish-blue: hsl(206, 6%, 79%); /* placeholder text */
-    --very-dark-desaturated-violet: hsl(271, 36%, 24%); /* main heading */
-    --dark-grayish-violet: hsl(270, 7%, 64%); /* paragraph */
+  --pale-violet: hsl(276, 100%, 81%); /* sub-heading at the top of the app UI */
+  --moderate-violet: hsl(276, 55%, 52%); /* chat on the left */
+  --desaturated-dark-violet: hsl(271, 15%, 43%); /* chat on the right */
+  --grayish-blue: hsl(206, 6%, 79%); /* placeholder text */
+  --very-dark-desaturated-violet: hsl(271, 36%, 24%); /* main heading */
+  --dark-grayish-violet: hsl(270, 7%, 64%); /* paragraph */
 
-    /* Gradients */
-    --light-magenta: hsl(293, 100%, 63%);
-    --light-violet: hsl(264, 100%, 61%);
+  /* Gradients */
+  --light-magenta: hsl(293, 100%, 63%);
+  --light-violet: hsl(264, 100%, 61%);
 
-    /* Secondary */
-    --white: hsl(0, 0%, 100%);
-    --light-grayish-violet: hsl(270, 20%, 96%); /* app background */
-    --submit-btn-bg: hsl(271, 36%, 24%); /* submit button background */
-    --very-light-magenta: hsl(289, 100%, 72%); /* radio button outline */
+  /* Secondary */
+  --white: hsl(0, 0%, 100%);
+  --light-grayish-violet: hsl(270, 20%, 96%); /* app background */
+  --submit-btn-bg: hsl(271, 36%, 24%); /* submit button background */
+  --very-light-magenta: hsl(289, 100%, 72%); /* radio button outline */
 }
 
-
-body{
-    font-family: "Rubik", sans-serif;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+body {
+  font-family: "Rubik", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--light-grayish-violet);
 }
 
-.main{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+.main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
-.div-1{
-    position: absolute;
-    /* width: 501px;
+.div-1 {
+  position: absolute;
+  /* width: 501px;
     height: 627px; */
-    min-width: 301px;
-    min-height: 427px;
-    width: 35vw;        
-    height: 40vw;
+  min-width: 301px;
+  min-height: 427px;
+  width: 32vw;
+  height: 40vw;
 
-    /* transform: translate(-10%, -10%); */
-    /* left: -50%vw;
+  /* transform: translate(-10%, -10%); */
+  /* left: -50%vw;
     top: -50%vh; */
-    background: linear-gradient(199deg, var(--light-magenta) -41%, var(--light-violet)) 73%;
-    border-bottom-left-radius: 46%;
-    border-bottom-right-radius: 58%;
-    /* border-radius: 0 0 48% 48%; */
-    margin-left: -113px;
-    /* margin-left: 1vw; */
-    
-    
+  background: linear-gradient(
+      199deg,
+      var(--light-magenta) -41%,
+      var(--light-violet)
+    )
+    73%;
+  border-bottom-left-radius: 46%;
+  border-bottom-right-radius: 58%;
+  /* border-radius: 0 0 48% 48%; */
+  margin-left: -113px;
+  /* margin-left: 1vw; */
 }
 
-.div-2{
-    position: absolute;
-    /* width: 501px;
+.div-2 {
+  position: absolute;
+  /* width: 501px;
     height: 627px; */
-    min-width: 301px;
-    min-height: 427px;
-    width: 35vw;        
-    height: 40vw;
+  min-width: 301px;
+  min-height: 427px;
+  width: 33vw;
+  height: 40vw;
 
-   
-    bottom: 0%;
-    right: 0%;
-    background:  hsla(293, 100%, 63%, 0.074);
-    
-    border-radius:  58% 46% 0 0;
-    margin-right: -133px;
-   
-    
+  bottom: 0%;
+  right: 0%;
+  background: hsla(293, 100%, 63%, 0.074);
+
+  border-radius: 58% 46% 0 0;
+  margin-right: -133px;
 }
-.inner{
-    position: absolute;
-   width: 1000px;
-   height: 490px;
-   top: 18%;
-   left: 20%;
-   background-color: aqua;
+.inner {
+  position: absolute;
+  width: 1000px;
+  height: 490px;
+  top: 17%;
+  left: 18vw;
+  display: flex;
+  background-color:var(--white);
+  border-radius: 1.8rem;
+  box-shadow: -2px 11px 37px -4px rgba(83,51,106,0.75);
+/* -webkit-box-shadow: -2px 11px 37px -4px rgba(83,51,106,0.75);
+-moz-box-shadow: -2px 11px 37px -4px rgba(83,51,106,0.75); */
 }
 
+.chat-box {
+  width: 30%;
+  height: 100%;
+  padding: 0.8rem;
+}
+.content {
+  width: 70%;
+  height: 100%;
+  background: white;
+}
 
-
-
-
-
-
+header{
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(
+        260deg,
+      var(--light-magenta) ,
+      var(--light-violet)
+    );
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+   
+}
+header .part-1{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    margin-left: 1rem;
+    width: 85%;
+}
+.header-content h2{
+    font-size: 1rem;
+    color: var(--white);
+    font-weight: 500;
+    /* margin-left: 10px; */
+}
+.header-content p{
+    font-size: 0.8rem;
+    color: var(--light-grayish-violet);
+    font-weight: 400;
+}
+header .avatar{
+    width: 30px;
+    border-radius: 50%;
+}
+.header-icon{
+    color: white;
+}
+.back{
+    width: 25px;
+    fill: var(--white);
+}
+section,footer{
+    background-color: var(--light-grayish-violet);
+}
