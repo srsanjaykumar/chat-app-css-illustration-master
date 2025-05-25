@@ -87,67 +87,76 @@ body {
   top: 17%;
   left: 18vw;
   display: flex;
-  background-color:var(--white);
-  border-radius: 1.8rem;
-  box-shadow: -2px 11px 37px -4px rgba(83,51,106,0.75);
-/* -webkit-box-shadow: -2px 11px 37px -4px rgba(83,51,106,0.75);
+  gap: 15%;
+  /* background-color:var(--white); */
+
+  /* -webkit-box-shadow: -2px 11px 37px -4px rgba(83,51,106,0.75);
 -moz-box-shadow: -2px 11px 37px -4px rgba(83,51,106,0.75); */
 }
-
+.one {
+  width: 33%;
+  border-radius: 1.8rem;
+  background-color: var(--white);
+  box-shadow: -2px 11px 37px -4px rgba(83, 51, 106, 0.75);
+}
+.two {
+  width: 50%;
+  /* margin-left: 10rem; */
+}
 .chat-box {
-  width: 30%;
+  /* width: 80%; */
   height: 100%;
   padding: 0.8rem;
 }
 .content {
-  width: 70%;
+  
   height: 100%;
   background: white;
 }
 
-header{
-    width: 100%;
-    height: 15%;
-    background: linear-gradient(
-        260deg,
-      var(--light-magenta) ,
-      var(--light-violet)
-    );
-    border-radius: 1rem 1rem 0 0;
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-   
+header {
+  width: 100%;
+  height: 15%;
+  background: linear-gradient(
+    260deg,
+    var(--light-magenta),
+    var(--light-violet)
+  );
+  border-radius: 1rem 1rem 0 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
 }
-header .part-1{
-    display: flex;
-    gap: 0.6rem;
-    align-items: center;
-    margin-left: 1rem;
-    width: 85%;
+header .part-1 {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  margin-left: 1rem;
+  width: 85%;
 }
-.header-content h2{
-    font-size: 1rem;
-    color: var(--white);
-    font-weight: 500;
-    /* margin-left: 10px; */
+.header-content h2 {
+  font-size: 1rem;
+  color: var(--white);
+  font-weight: 500;
+  /* margin-left: 10px; */
 }
-.header-content p{
-    font-size: 0.8rem;
-    color: var(--light-grayish-violet);
-    font-weight: 400;
+.header-content p {
+  font-size: 0.8rem;
+  color: var(--light-grayish-violet);
+  font-weight: 400;
 }
-header .avatar{
-    width: 30px;
-    border-radius: 50%;
+header .avatar {
+  width: 30px;
+  border-radius: 50%;
 }
-.header-icon{
-    color: white;
+.header-icon {
+  color: white;
 }
-.back{
-    width: 25px;
-    fill: var(--white);
+.back {
+  width: 25px;
+  fill: var(--white);
 }
-section,footer{
-    background-color: var(--light-grayish-violet);
+section,
+footer {
+  background-color: var(--light-grayish-violet);
 }
