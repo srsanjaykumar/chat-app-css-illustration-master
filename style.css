@@ -339,7 +339,9 @@ footer {
     margin-top: 1rem;
     padding:  2.5rem;
   }
- 
+ header::before{
+  margin-top: -3%;
+ }
 }
 
 @media (max-width: 800px) {
@@ -432,5 +434,5 @@ footer {
   .two {
    
   }
-  
+
 }
