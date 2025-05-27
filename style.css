@@ -91,6 +91,7 @@ body {
   left: 18vw;
   display: flex;
   gap: 15%;
+  
   /* background-color:var(--white); */
 
   /* -webkit-box-shadow: -2px 11px 37px -4px rgba(83,51,106,0.75);
@@ -102,19 +103,13 @@ body {
   background-color: var(--white);
   box-shadow: -2px 11px 37px -4px rgba(83, 51, 106, 0.75);
 }
-.two {
-  width: 50%;
-  /* margin-left: 10rem; */
-}
+
 .chat-box {
   /* width: 80%; */
   height: 100%;
   padding: 0.7rem;
 }
-.content {
-  height: 100%;
-  background: white;
-}
+
 
 header {
   position: relative;
@@ -291,4 +286,30 @@ input {
 footer {
   margin-top: -8px;
   border-radius: 0 0 1.3rem 1.3rem;
+}
+
+.two {
+  /* min-width: 30%; */
+  width: 35vw;
+  margin-left: -3rem;
+}
+.two .content h1{
+  color: var(--very-dark-desaturated-violet);
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.two .content p {
+  color: var(--dark-grayish-violet);
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  /* background: white; */
 }
