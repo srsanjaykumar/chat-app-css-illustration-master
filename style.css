@@ -75,7 +75,7 @@ body {
 
   bottom: 0%;
   right: 0%;
-  background: hsl(292, 100%, 95%);
+  background: hsla(293, 100%, 95%, 0.47);
 
   border-radius: 58% 46% 0 0;
   margin-right: -133px;
@@ -244,7 +244,7 @@ section .sender {
 .icon {
   width: 16px;
   height: 16px;
-  border: 0.5px solid rgba(255, 255, 255, 0.555);
+  border: 0.5px solid rgba(255, 255, 255, 0.304);
   font-size: 1.3rem;
   border-radius: 50%;
 }
@@ -342,6 +342,9 @@ footer {
  header::before{
   margin-top: -3%;
  }
+ .div-2{
+  bottom: -30%;
+ }
 }
 
 @media (max-width: 800px) {
@@ -398,6 +401,9 @@ footer {
   .two {
    width: 45%;
   }
+  .div-2{
+  bottom: -35%;
+ }
 }
 
 @media (max-width: 450px) {
@@ -423,6 +429,9 @@ footer {
   .two {
     width: 40%;
   }
+  .div-2{
+  bottom: -38%;
+ }
 }
 @media (max-width: 390px) {
   .inner {
