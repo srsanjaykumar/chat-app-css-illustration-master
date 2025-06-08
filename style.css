@@ -436,7 +436,7 @@ footer {
 }
 @media (max-width: 390px) {
   body{
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .inner {
      margin-left:-103vw;
